@@ -2,21 +2,17 @@ body {
   text-align: center;
   line-height: 1.5;
   margin-top: 5%;
-  background-image: url("../images/bg-tree.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  overflow-y: hidden;
-  overflow-x: hidden;
   font-family: 'Montserrat';
 }
 
 h5 {
-  margin: 3%;
+  margin: 2%
 }
 
 h1 {
   margin: 3%;
   color: red;
+  font-family: 'Sacramento';
 }
 
 .col-tran {
@@ -27,29 +23,26 @@ h1 {
    padding: 2% 0;
 } */
 .family-image {
-  width: 125px;
+  width: 100%;
+  height: auto;
   border-radius: 100%;
   border-style: outset;
-  margin: 5%
+}
+
+img:hover {
+  cursor: pointer;
 }
 
 .modal-image {
-  width: 200px;
+  width: 100%;
+  height: auto;
   border-radius: 100%;
   border-style: outset;
-  margin: 5%
 }
 
 .tran-image {
   width: 100%;
   height: 5rem;
-}
-
-.family-image:hover {
-  width: 135px;
-  position: relative;
-  z-index: 1;
-  cursor: pointer;
 }
 
 .boy-bg {
@@ -70,6 +63,39 @@ h1 {
   color: #ff6701;
 }
 
+.common-modal {
+  background-color: gold;
+  color: grey;
+}
+
 .modal-body {
   background-color: white;
+}
+
+hr {
+  border-top: 10px dotted red;
+  background-color: white;
+  width: 10%;
+  margin: 50px auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 2rem;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 2rem;
+  color: red;
 }
