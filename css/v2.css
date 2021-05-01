@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  line-height: 1.5;
+  margin: 5% 1%;
+  font-family: 'Montserrat';
+}
+
+h5 {
+  margin: 3%;
+}
+
+h1 {
+  margin: 3%;
+  color: red;
+  font-family: 'Sacramento';
+}
+
+.col-tran {
+  height: 1rem;
+}
+
+.family-image {
+  width: 125px;
+  height: auto;
+  border-radius: 100%;
+  border-style: outset;
+  margin: 5%
+}
+
+.modal-image {
+  width: 200px;
+  height: auto;
+  border-radius: 100%;
+  border-style: outset;
+  margin: 5%
+}
+
+.tran-image {
+  width: 100%;
+  height: 5rem;
+}
+
+.family-image:hover {
+  width: 135px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.boy-bg {
+  border-color: cyan;
+}
+
+.girl-bg {
+  border-color: pink;
+}
+
+.boy-modal {
+  background-color: cyan;
+  color: blue;
+}
+
+.girl-modal {
+  background-color: pink;
+  color: #ff6701;
+}
+
+.modal-body {
+  background-color: white;
+}
+
+.pula-modal{
+  background-color: pink;
+}
+
+.queb-modal{
+  background-color: cyan;
+}
+
+.com-modal {
+  background-color: #ffc996;
+}
+
+.com2-modal {
+  background-color: #ffdf6b;
+}
