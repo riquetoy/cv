@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  line-height: 1.5
+}
+
+h5 {
+  margin: 2%;
+}
+
+.container-fluid {
+  padding: 5% 0;
+}
+
+.family-image {
+  width: 125px;
+  border-radius: 100%;
+  border-style: outset;
+}
+
+.family-image:hover {
+  width: 135px;
+  position: relative;
+  z-index: 1
+}
+
+.boy-bg {
+    border-color: cyan;
+}
+
+.girl-bg {
+    border-color: pink;
+}
+
+.boy-modal {
+  background-color: cyan;
+}
+
+.girl-modal {
+  background-color: pink;
+}
+
+#grandparents-sec {
+  background-color: #ff4c68;
+}
+
+#parents-sec {
+  background-color: white;
+}
+
+#children-sec {
+  background-color: #ff4c68;
+}
